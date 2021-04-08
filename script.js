@@ -1,11 +1,18 @@
 var kmPercorsi = parseInt (prompt("Quanti km vuoi percorrere?"));
 console.log(kmPercorsi + " " + "km");
 
+if (Number.isNaN(kmPercorsi)) {
+    alert("non valido")
+}
+
 var anni = parseInt ( prompt("Quanti anni hai?"));
 console.log(anni + " " + "anni");
 
-// var prezzo = kmPercorsi * 0.21
-// console.log(prezzo + "€")
+if (Number.isNaN(anni)) {
+    alert("non valido")
+}
+
+
 
 if ( anni < 18){
     var prezzo = kmPercorsi * 0.21
