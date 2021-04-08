@@ -10,6 +10,8 @@ if (Number.isNaN(kmPercorsi) || Number.isNaN(anni)) {
     alert("non valido")
     document.getElementById('error').innerHTML = "errore inserimento dei dati";
 
+}else {
+    
 }
 
         
